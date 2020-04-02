@@ -1,0 +1,41 @@
+package cn.ztuo.bitrade.entity;
+
+import cn.ztuo.bitrade.constant.PayMode;
+import lombok.Data;
+
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotNull;
+import java.math.BigDecimal;
+
+@Data
+public class LegalWalletWithdrawModel {
+
+    /**
+     * 数量
+     */
+    @Min(value = 0, message = "{LegalWalletRechargeModel.amount.min}")
+    private BigDecimal amount;
+
+    /**
+     * 提现货币
+     */
+    @NotNull(message = "{LegalWalletRechargeModel.coinName.null}")
+    private String unit;
+
+    /**
+     * 收款方式
+     */
+    @NotNull(message = "{LegalWalletRechargeModel.payModes.null}")
+    private PayMode payMode;
+
+    /**
+     * 备注
+     */
+    private String remark;
+
+    /**
+     * 支付宝/微信/银行卡 账号
+     */
+    private String account ;
+
+}

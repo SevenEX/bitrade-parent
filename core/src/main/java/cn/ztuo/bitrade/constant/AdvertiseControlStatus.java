@@ -1,0 +1,37 @@
+package cn.ztuo.bitrade.constant;
+
+import com.fasterxml.jackson.annotation.JsonValue;
+import cn.ztuo.bitrade.core.BaseEnum;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
+
+/**
+ * @author Seven
+ * @date 2019年01月10日
+ */
+@AllArgsConstructor
+@Getter
+public enum AdvertiseControlStatus implements BaseEnum {
+    /**
+     * 上架
+     */
+    PUT_ON_SHELVES("上架"),
+    /**
+     * 下架
+     */
+    PUT_OFF_SHELVES("下架"),
+    /**
+     * 已关闭（删除）
+     */
+    TURNOFF("已关闭");
+
+    @Setter
+    private String cnName;
+
+    @Override
+    @JsonValue
+    public int getOrdinal() {
+        return this.ordinal();
+    }
+}

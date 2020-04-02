@@ -1,0 +1,10 @@
+${AnsiColor.CYAN}
+ ________  _____ ______
+|\   __  \|\   _ \  _   \
+\ \  \|\ /\ \  \\\__\ \  \
+ \ \   __  \ \  \\|__| \  \
+  \ \  \|\  \ \  \    \ \  \
+   \ \_______\ \__\    \ \__\
+    \|_______|\|__|     \|__|
+${AnsiColor.BLACK}
+                   testg  Spring Boot Version: ${spring-boot.formatted-version}
