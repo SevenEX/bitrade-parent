@@ -64,7 +64,7 @@
 		<junit_version>5.6.0-M1</junit_version>
 		<!--netty-->
 		<netty_version>4.1.43.Final</netty_version>
-		<guava_version>28.1-jre</guava_version>
+		<guava_version>29.0-jre</guava_version>
 		<protostuff_version>1.6.2</protostuff_version>
 		<shiro_version>1.4.2</shiro_version>
 		<ehcache_version>2.10.6</ehcache_version>
