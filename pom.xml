@@ -57,7 +57,7 @@
 		<fastjson_version>1.2.62</fastjson_version>
 		<!-- Log libs -->
 		<slf4j_version>1.7.29</slf4j_version>
-		<log4j_version>2.12.1</log4j_version>
+		<log4j_version>2.15.0</log4j_version>
 		<logback_version>1.2.3</logback_version>
 		<logback-ext-spring_version>0.1.5</logback-ext-spring_version>
 		<!-- Test Libs -->
