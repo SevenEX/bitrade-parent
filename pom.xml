@@ -41,7 +41,7 @@
 		<project.build.jdk_version>1.8</project.build.jdk_version>
 		<!-- spring -->
 		<spring-cloud.version>Hoxton.RC2</spring-cloud.version>
-		<spring-boot_version>2.2.1.RELEASE</spring-boot_version>
+		<spring-boot_version>2.5.12</spring-boot_version>
 		<!-- 数据库连接 -->
 		<druid_version>1.1.21</druid_version>
 		<mysql.version>8.0.11</mysql.version>
