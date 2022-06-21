@@ -44,7 +44,7 @@
 		<spring-boot_version>2.2.1.RELEASE</spring-boot_version>
 		<!-- 数据库连接 -->
 		<druid_version>1.1.21</druid_version>
-		<mysql.version>8.0.11</mysql.version>
+		<mysql.version>8.0.28</mysql.version>
 		<!-- commons包 -->
 		<commons-codec_version>1.13</commons-codec_version>
 		<commons-fileupload_version>1.4</commons-fileupload_version>
