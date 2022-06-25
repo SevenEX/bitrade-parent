@@ -357,7 +357,7 @@
 			<dependency>
 				<artifactId>spring-data-mongodb</artifactId>
 				<groupId>org.springframework.data</groupId>
-				<version>2.2.1.RELEASE</version>
+				<version>3.3.5</version>
 			</dependency>
 			<dependency>
 				<artifactId>spring-data-redis</artifactId>
